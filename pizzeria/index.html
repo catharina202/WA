@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizzeria</title>
+
+    <!-- Plik ze stylami css -->
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Element HTML pełniący rolę kontenera dla aplikacji React -->
+    <div id="root"></div>
+    <!-- Biblioteka React -->
+    <script src="react/react.development.js"></script>
+    <!-- Biblioteka React DOM -->
+    <script src="react/react-dom.development.js"></script>
+    <!-- Babel - Nie korzystamy na produkcji (tylko podczas developmentu) -->
+    <script src="react/babel.min.js"></script>
+
+    <script src="lib/jquery.js"></script>
+
+    <!-- Nasz kod - kompilowanie JSX i ES6 do ES5 - zwróc uwagę na atrybut type (domyślnie: type='text/javascript -->
+    <script type="text/babel" src="src/AddPizza.js"></script>
+    <script type="text/babel" src="src/SubmitOrder.js"></script>
+    <script type="text/babel" src="src/PizzaList.js"></script>
+    <script type="text/babel" src="src/OrdersList.js"></script>
+    <script type="text/babel" src="src/TablesList.js"></script>
+    <script type="text/babel" src="src/PizzeriaManager.js"></script>
+    <script type="text/babel" src="src/PizzeriaData.js"></script>
+    <script type="text/babel" src="src/Pizzeria.js"></script>
+    <script type="text/babel" src="src/App.js"></script>
+    <script type="text/babel" src="src/index.js"></script>
+</body>
+
+</html>

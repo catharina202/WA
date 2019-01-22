@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.row .col-12 {
+    padding: 15px;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+h4 {
+    margin: 15px 0;
+}
+
+#main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255,255,255,0.95);
+}
+
+#orders {
+    background-color: rgba(255,255,255,0.5);
+    overflow-x: auto;
+    margin: 20px 0;
+    padding: 20px 15px;
+}
+
+.App {
+    background-color: rgba(30,30,30,0.8);
+}
+
+footer, header {
+    padding: 15px 0;
+    color: #fff;
+}
